@@ -9,6 +9,7 @@
 	user-select: none;
 }
 
+
 a{text-decoration: none; color: #FFF;}
 p{color: #292929;}
 
@@ -20,7 +21,7 @@ h1{
 h6{
 	font-size: 24px;
 	font-weight: 400;
-	color: #292929;s
+	color: #292929;
 }
 .p_focus{
 	color: #19825F;
@@ -42,6 +43,10 @@ h6{
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	font-size: 20px;
 	padding: 18px 20px;
+	transition: 150ms;
+}
+.button:hover{
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.0);
 }
 
 header{background-color: #E4E4E4}
@@ -77,4 +82,46 @@ nav>.active{
 }
 nav>a:hover{
 	color: #FFF;
+}
+
+
+
+
+
+
+/*Мобилки*/
+@media (max-width: 767px) {
+	h1{font-size: 24px}
+	h6{font-size: 12px}
+	.p_focus{font-size: 12px}
+	.p_tel{font-size: 12px}
+	.button{
+		padding: 5px 8px;
+		font-size: 12px;
+	}
+
+	header>div{
+		margin: 0px 10px 10px;
+		padding-top: 10px;
+	}
+
+	.right_header{
+		flex-direction: column;
+		width: 40%
+	}
+	.right_header>div{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5px;
+	}
+
+	nav{
+		display: flex;
+		flex-direction: column;
+		padding: 10px 0px;
+	}
+	nav>a{
+		font-size: 14px;
+		padding: 5px 8px;
+	}
 }
