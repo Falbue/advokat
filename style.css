@@ -44,8 +44,10 @@ h6{
 	padding: 18px 20px;
 }
 
+header{background-color: #E4E4E4}
 header>div{
-	margin: 100px 150px;
+	margin: 0px 150px 60px;
+	padding-top: 60px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
