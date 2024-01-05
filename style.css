@@ -56,10 +56,25 @@ header>div{
 	width: 30%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 nav{
 	background-color: #292929;
 	width: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+}
+
+nav>a{
+	color: #19825F;
+	font-size: 24px;
+	padding: 20px 35px;
+	transition: 150ms;
+}
+nav>.active{
+	color: #FFF;
+}
+nav>a:hover{
+	color: #FFF;
 }
